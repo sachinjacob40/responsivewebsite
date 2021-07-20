@@ -1,0 +1,188 @@
+
+
+
+@media (min-width: 320px) and (max-width:767px){   
+ 
+.image{
+  width: 300px;
+  height: 190px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15rem;
+}
+
+.column{
+  margin: 0px 10px 0px 10px;
+  height: 50px;
+  border-radius:10px;
+}
+
+.tabletext{
+  display: none;
+}
+
+
+
+
+
+.padding{
+  padding: 5px;
+  margin: 5px;
+
+}
+
+.spantext{
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  
+}
+
+.spantext2{
+  position: absolute;
+  top: 15%;
+  font-weight: 100;
+  font-size: 32px;
+  color: white;
+}
+
+
+
+}
+
+
+@media(min-width: 768px) and (max-width:991px){
+  .extratab{
+    margin-left: 28% !important;
+    margin-top: 2rem !important;
+  }
+  .column {
+  
+    border:9px solid white;
+    min-height: 100px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px grey;
+    height: 12rem;
+    margin: 0px 0px 0px 20px;
+   
+   
+    
+  }
+  .tabletext{
+    color:white;
+    display: block;
+    text-align: center;
+    margin-top: 3.9rem;
+    font-size: 22px;
+
+  }
+
+  .spantext{
+    position: absolute;
+    top: 3%;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    left: 8%;
+  }
+
+  .spantext2{
+    position: absolute;
+    top: 17%;
+    font-weight: 100;
+    font-size: 32px;
+    color: white;
+    left: 8%;
+  }
+  .image{
+    
+      position:absolute;
+      top:230px;
+      width:300px;
+      right:11px;
+      height:190px
+    
+    
+  }
+  .searchbar{
+    padding-right: 30%;
+  }
+}
+
+
+@media(min-width:992px){
+  .row{
+    position:relative;
+    bottom:6rem
+  }
+  .column{
+    border:9px solid white;
+    min-height: 100px;
+    border-radius: 0px;
+    box-shadow: 8px 3px 9px 0px grey;
+    height: 12rem;
+    margin: 0px 40px 0px 40px;
+  }
+
+ 
+  .image{
+  position:absolute;
+  top:60px;
+  width:400px;
+  right:11px;
+  height:250px;
+  }
+  .tabletext{
+    color:white;
+    display: block;
+    text-align: center;
+    margin-top: 3.9rem;
+    font-size: 22px;
+   
+  }
+  .spantext{
+    position: absolute;
+    top: 6%;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    left: 9%;
+  }
+
+  .spantext2{
+    position: absolute;
+    top: 20%;
+    font-weight: 100;
+    font-size: 32px;
+    color: white;
+    left: 9%;
+  }
+
+  .footer{
+    margin-top: -5rem;
+  }
+
+  .footerLeft{
+  padding-left: 17rem;
+  }
+
+  .footerRight{
+    padding-right: 17rem;
+  }
+
+
+  .searchbar{
+    
+    padding: 0 30% 0 7%;
+
+  }
+
+  .greybar{
+    margin-right: 23%;
+  }
+
+  
+
+}
